@@ -18,11 +18,12 @@ class SalonDeClases(GoogleClassroom):
   def metodosSalonDeClases(self):
     print("Participar")
     print("Entrar")
-
+  def metodosGoogleClassroom(self):
+    print("Entregar de forma presencial y en fisico")
+    print("Comentar observaciones del tema o la clase")
 objeto_google=GoogleClassroom()
 objeto_google.metodosGoogleClassroom()
 
 objeto_salon=SalonDeClases()
 objeto_salon.metodosSalonDeClases()
-objeto_salon=GoogleClassroom()
 objeto_salon.metodosGoogleClassroom()

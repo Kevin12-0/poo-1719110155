@@ -8,7 +8,6 @@ class Coche:
   def metodosCoche(self):
     print("Acelerar")
     print("Frenar")
-'Subclase 1'
 class Deportivo(Coche):
   def __init__(self):
     print("Caballos de fuersa")
@@ -19,11 +18,12 @@ class Deportivo(Coche):
   def metodosDeportivo(self):
     print("Correr")
     print("Encender Luces")
-
+  def metodosCoche(self):
+    print("Acelerar pisando el acelerador ")
+    print("Frenar pisando el pedal de ")
 objeto_coche=Coche()
 objeto_coche.metodosCoche()
 
 objeto_deportivo=Deportivo()
 objeto_deportivo.metodosDeportivo()
-objeto_deportivo=Coche()
 objeto_deportivo.metodosCoche()
