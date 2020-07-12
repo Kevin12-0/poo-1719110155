@@ -1,0 +1,4 @@
+los datos son {82.4: '11 de junio', 55.4: '11 de junio '}
+La temperatura mas alta es de (55.4, '11 de junio ')
+El promedio en centigrados es de 20.5
+El promedio en farentheit es de 68.9
